@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@font-face {
+    font-family: "Raleway";
+    src: url('../fonts/Raleway.woff');
+    src: url('../fonts/Raleway.ttf') format ('truetype'),
+    url('../fonts/Raleway.otf') format('opentype');
+}
+
+body {
+    max-width: 1200px; /* largeur maximale */
+    margin: 0 auto;    /* centre la page */
+}
+
+header {
+    display: grid ;
+    justify-content: center;
+    background-color: #17abb3;
+    color: white;
+}
+
+.header1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.box1 {
+  display: flex;
+  flex-wrap: wrap; /* Permet de passer à la ligne */
+  list-style: none;
+}
+
+li{
+  flex: 1 1 45%; /* 2 éléments par ligne */
+  text-align: start;
+}
+
+.mail{
+    list-style-image: url("../img/e-mail.png");
+}
+
+.phone{
+    list-style-image: url("../img/phone.png");
+}
+
+.house{
+    list-style-image: url("../img/house.png");
+}
+
+.car{
+    list-style-image: url("../img/car.png");
+}
+
+h1, h2, h3 {
+    font-family: "Lato", sans-serif ;
+}
+
+p {
+    font-family: "Raleway", serif;
+}
+
