@@ -76,6 +76,11 @@ footer{
 }
 
 .logo{
-    width: 15%;
-    margin: 10px;
+    width: 2%;
+    margin: 20px 10px 0 10px;
+}
+
+.date{
+    text-align: center;
+    padding: 0 0 10px 0;
 }
