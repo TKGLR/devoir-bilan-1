@@ -12,8 +12,6 @@ body {
     margin: 0 auto;    /* centre la page */
 }
 
-/* HEADER */
-
 header {
     display: grid ;
     justify-content: center;
@@ -63,6 +61,7 @@ p {
     font-family: "Raleway", serif;
 }
 
+
 /* FOOTER */
 
 footer{
@@ -77,6 +76,6 @@ footer{
 }
 
 .logo{
-    width: 3%;
+    width: 15%;
     margin: 10px;
 }
