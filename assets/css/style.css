@@ -187,8 +187,12 @@ footer{
 }
 
 .logo{
-    width: 2%;
+    width: 25px;
     margin: 20px 10px 0 10px;
+}
+
+footer img:hover{
+    opacity: 0.5;
 }
 
 .date{
